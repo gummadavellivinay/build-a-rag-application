@@ -1,0 +1,31 @@
+SYNTHETIC GRAPH SOURCE
+Broker of record for L-001 is B-01.
+Broker B-01 is affiliated with O-01.
+L-001 lies in N-01.
+L-001 is near Park 1; exact distance not documented.
+Brochure corpus/L-001.txt documents L-001.
+Broker of record for L-002 is B-01.
+Broker B-01 is affiliated with O-01.
+L-002 lies in N-01.
+L-002 is near Park 2; exact distance not documented.
+Brochure corpus/L-002.txt documents L-002.
+Broker of record for L-003 is B-02.
+Broker B-02 is affiliated with O-01.
+L-003 lies in N-01.
+L-003 is near Park 3; exact distance not documented.
+Brochure corpus/L-003.txt documents L-003.
+Broker of record for L-004 is B-02.
+Broker B-02 is affiliated with O-01.
+L-004 lies in N-02.
+L-004 is near Park 4; exact distance not documented.
+Brochure corpus/L-004.txt documents L-004.
+Broker of record for L-005 is B-03.
+Broker B-03 is affiliated with O-02.
+L-005 lies in N-02.
+L-005 is near Park 5; exact distance not documented.
+Brochure corpus/L-005.txt documents L-005.
+Broker of record for L-006 is B-03.
+Broker B-03 is affiliated with O-02.
+L-006 lies in N-02.
+L-006 is near Park 6; exact distance not documented.
+Brochure corpus/L-006.txt documents L-006.

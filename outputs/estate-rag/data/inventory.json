@@ -1,0 +1,50 @@
+[
+  {
+    "listing_id": "L-001",
+    "tenant": "demo",
+    "status": "active",
+    "asking_price": 425000,
+    "currency": "USD",
+    "updated_at": "2026-10-15T12:00:00Z"
+  },
+  {
+    "listing_id": "L-002",
+    "tenant": "demo",
+    "status": "pending",
+    "asking_price": 450000,
+    "currency": "USD",
+    "updated_at": "2026-10-15T12:00:00Z"
+  },
+  {
+    "listing_id": "L-003",
+    "tenant": "demo",
+    "status": "active",
+    "asking_price": 475000,
+    "currency": "USD",
+    "updated_at": "2026-10-15T12:00:00Z"
+  },
+  {
+    "listing_id": "L-004",
+    "tenant": "demo",
+    "status": "pending",
+    "asking_price": 500000,
+    "currency": "USD",
+    "updated_at": "2026-10-15T12:00:00Z"
+  },
+  {
+    "listing_id": "L-005",
+    "tenant": "demo",
+    "status": "active",
+    "asking_price": 525000,
+    "currency": "USD",
+    "updated_at": "2026-10-15T12:00:00Z"
+  },
+  {
+    "listing_id": "L-006",
+    "tenant": "demo",
+    "status": "pending",
+    "asking_price": 550000,
+    "currency": "USD",
+    "updated_at": "2026-10-15T12:00:00Z"
+  }
+]

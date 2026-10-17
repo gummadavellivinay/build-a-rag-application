@@ -1,0 +1,51 @@
+[
+  {
+    "path": "corpus/L-001.txt",
+    "listing_id": "L-001",
+    "language": "en"
+  },
+  {
+    "path": "corpus/L-002.txt",
+    "listing_id": "L-002",
+    "language": "en"
+  },
+  {
+    "path": "corpus/L-003.txt",
+    "listing_id": "L-003",
+    "language": "en"
+  },
+  {
+    "path": "corpus/L-004.txt",
+    "listing_id": "L-004",
+    "language": "en"
+  },
+  {
+    "path": "corpus/L-005.txt",
+    "listing_id": "L-005",
+    "language": "en"
+  },
+  {
+    "path": "corpus/L-006.txt",
+    "listing_id": "L-006",
+    "language": "en"
+  },
+  {
+    "path": "corpus/relationships.txt",
+    "language": "en"
+  },
+  {
+    "path": "corpus/spanish.pdf",
+    "language": "es",
+    "listing_id": "L-001"
+  },
+  {
+    "path": "corpus/screenshot.png",
+    "language": "en",
+    "listing_id": "L-002"
+  },
+  {
+    "path": "corpus/french-scan.pdf",
+    "language": "fr",
+    "listing_id": "L-003"
+  }
+]

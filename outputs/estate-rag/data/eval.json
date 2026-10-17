@@ -1,0 +1,194 @@
+[
+  {
+    "id": "Q01",
+    "question": "Which office employs the broker marketing L-001?",
+    "mode": "graph",
+    "sources": [
+      "corpus/relationships.txt"
+    ],
+    "expected": "Broker B-01; office O-01. All synthetic.",
+    "abstain": false
+  },
+  {
+    "id": "Q02",
+    "question": "Which office employs the broker marketing L-002?",
+    "mode": "graph",
+    "sources": [
+      "corpus/relationships.txt"
+    ],
+    "expected": "Broker B-01; office O-01. All synthetic.",
+    "abstain": false
+  },
+  {
+    "id": "Q03",
+    "question": "Which office employs the broker marketing L-003?",
+    "mode": "graph",
+    "sources": [
+      "corpus/relationships.txt"
+    ],
+    "expected": "Broker B-02; office O-01. All synthetic.",
+    "abstain": false
+  },
+  {
+    "id": "Q04",
+    "question": "Which office employs the broker marketing L-004?",
+    "mode": "graph",
+    "sources": [
+      "corpus/relationships.txt"
+    ],
+    "expected": "Broker B-02; office O-01. All synthetic.",
+    "abstain": false
+  },
+  {
+    "id": "Q05",
+    "question": "Which office employs the broker marketing L-005?",
+    "mode": "graph",
+    "sources": [
+      "corpus/relationships.txt"
+    ],
+    "expected": "Broker B-03; office O-02. All synthetic.",
+    "abstain": false
+  },
+  {
+    "id": "Q06",
+    "question": "Which office employs the broker marketing L-006?",
+    "mode": "graph",
+    "sources": [
+      "corpus/relationships.txt"
+    ],
+    "expected": "Broker B-03; office O-02. All synthetic.",
+    "abstain": false
+  },
+  {
+    "id": "Q07",
+    "question": "Which listings are marketed by B-01?",
+    "mode": "graph",
+    "sources": [
+      "corpus/relationships.txt"
+    ],
+    "expected": "L-001 and L-002.",
+    "abstain": false
+  },
+  {
+    "id": "Q08",
+    "question": "Which broker markets L-003, and which neighborhood contains it?",
+    "mode": "graph",
+    "sources": [
+      "corpus/relationships.txt"
+    ],
+    "expected": "B-02 and N-01 (Cedar District).",
+    "abstain": false
+  },
+  {
+    "id": "Q09",
+    "question": "Which park is near L-004 and which document describes the listing?",
+    "mode": "graph",
+    "sources": [
+      "corpus/relationships.txt"
+    ],
+    "expected": "Park 4 and Brochure L-004; exact distance unknown.",
+    "abstain": false
+  },
+  {
+    "id": "Q10",
+    "question": "Which listings are located in N-02?",
+    "mode": "graph",
+    "sources": [
+      "corpus/relationships.txt"
+    ],
+    "expected": "L-004, L-005 and L-006.",
+    "abstain": false
+  },
+  {
+    "id": "Q11",
+    "question": "What features does L-001 list?",
+    "mode": "hybrid",
+    "sources": [
+      "corpus/L-001.txt"
+    ],
+    "expected": "Solar panels and private garden.",
+    "abstain": false
+  },
+  {
+    "id": "Q12",
+    "question": "What does the L-002 brochure say about accessibility?",
+    "mode": "hybrid",
+    "sources": [
+      "corpus/L-002.txt"
+    ],
+    "expected": "Step-free entry and elevator.",
+    "abstain": false
+  },
+  {
+    "id": "Q13",
+    "question": "How many bedrooms does the L-006 brochure list?",
+    "mode": "hybrid",
+    "sources": [
+      "corpus/L-006.txt"
+    ],
+    "expected": "2 bedrooms.",
+    "abstain": false
+  },
+  {
+    "id": "Q14",
+    "question": "What features are described in the Spanish L-001 document?",
+    "mode": "multimodal",
+    "sources": [
+      "corpus/spanish.pdf"
+    ],
+    "expected": "Solar panels and private garden.",
+    "abstain": false
+  },
+  {
+    "id": "Q15",
+    "question": "Combien de chambres sont indiquees dans le document scanne L-003?",
+    "mode": "multimodal",
+    "sources": [
+      "corpus/french-scan.pdf"
+    ],
+    "expected": "Deux chambres; synthetic document.",
+    "abstain": false
+  },
+  {
+    "id": "Q16",
+    "question": "How many parking spaces does the L-002 screenshot show?",
+    "mode": "multimodal",
+    "sources": [
+      "corpus/screenshot.png"
+    ],
+    "expected": "Two spaces.",
+    "abstain": false
+  },
+  {
+    "id": "Q17",
+    "question": "Is L-001 currently active and what is the asking price?",
+    "mode": "hybrid",
+    "sources": [],
+    "expected": "Synthetic fixture only: active, USD 425000, as of 2026-10-15T12:00:00Z; not live market data.",
+    "abstain": false
+  },
+  {
+    "id": "Q18",
+    "question": "What will L-001 sell for next year?",
+    "mode": "hybrid",
+    "sources": [],
+    "expected": "Unknown: future sale price is unsupported.",
+    "abstain": true
+  },
+  {
+    "id": "Q19",
+    "question": "Which office represents L-999?",
+    "mode": "hybrid",
+    "sources": [],
+    "expected": "Unknown canonical entity; clarify.",
+    "abstain": true
+  },
+  {
+    "id": "Q20",
+    "question": "What is the exact walking distance from L-004 to Park 4?",
+    "mode": "hybrid",
+    "sources": [],
+    "expected": "Only near relationship is documented; distance unknown.",
+    "abstain": true
+  }
+]

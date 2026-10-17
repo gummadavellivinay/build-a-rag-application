@@ -1,0 +1,463 @@
+{
+  "nodes": [
+    {
+      "id": "L-001",
+      "name": "101 Cedar Lane",
+      "type": "Listing",
+      "aliases": [
+        "L-001"
+      ],
+      "tenant": "demo"
+    },
+    {
+      "id": "B-01",
+      "name": "Broker 1",
+      "type": "Broker",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "O-01",
+      "name": "Agency office 1",
+      "type": "Office",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "N-01",
+      "name": "Cedar District",
+      "type": "Neighborhood",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "A-01",
+      "name": "Park 1",
+      "type": "Amenity",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "D-01",
+      "name": "Brochure L-001",
+      "type": "Document",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "L-002",
+      "name": "102 Cedar Lane",
+      "type": "Listing",
+      "aliases": [
+        "L-002"
+      ],
+      "tenant": "demo"
+    },
+    {
+      "id": "A-02",
+      "name": "Park 2",
+      "type": "Amenity",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "D-02",
+      "name": "Brochure L-002",
+      "type": "Document",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "L-003",
+      "name": "103 Cedar Lane",
+      "type": "Listing",
+      "aliases": [
+        "L-003"
+      ],
+      "tenant": "demo"
+    },
+    {
+      "id": "B-02",
+      "name": "Broker 2",
+      "type": "Broker",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "A-03",
+      "name": "Park 3",
+      "type": "Amenity",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "D-03",
+      "name": "Brochure L-003",
+      "type": "Document",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "L-004",
+      "name": "104 Cedar Lane",
+      "type": "Listing",
+      "aliases": [
+        "L-004"
+      ],
+      "tenant": "demo"
+    },
+    {
+      "id": "N-02",
+      "name": "Lake District",
+      "type": "Neighborhood",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "A-04",
+      "name": "Park 4",
+      "type": "Amenity",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "D-04",
+      "name": "Brochure L-004",
+      "type": "Document",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "L-005",
+      "name": "105 Cedar Lane",
+      "type": "Listing",
+      "aliases": [
+        "L-005"
+      ],
+      "tenant": "demo"
+    },
+    {
+      "id": "B-03",
+      "name": "Broker 3",
+      "type": "Broker",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "O-02",
+      "name": "Agency office 2",
+      "type": "Office",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "A-05",
+      "name": "Park 5",
+      "type": "Amenity",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "D-05",
+      "name": "Brochure L-005",
+      "type": "Document",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "L-006",
+      "name": "106 Cedar Lane",
+      "type": "Listing",
+      "aliases": [
+        "L-006"
+      ],
+      "tenant": "demo"
+    },
+    {
+      "id": "A-06",
+      "name": "Park 6",
+      "type": "Amenity",
+      "aliases": [],
+      "tenant": "demo"
+    },
+    {
+      "id": "D-06",
+      "name": "Brochure L-006",
+      "type": "Document",
+      "aliases": [],
+      "tenant": "demo"
+    }
+  ],
+  "edges": [
+    {
+      "id": "E001",
+      "source": "L-001",
+      "target": "B-01",
+      "relation": "MARKETED_BY",
+      "evidence": "Broker of record for L-001 is B-01.",
+      "document": "corpus/L-001.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E002",
+      "source": "B-01",
+      "target": "O-01",
+      "relation": "WORKS_AT",
+      "evidence": "Broker B-01 is affiliated with O-01.",
+      "document": "corpus/relationships.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E003",
+      "source": "L-001",
+      "target": "N-01",
+      "relation": "LOCATED_IN",
+      "evidence": "L-001 lies in N-01.",
+      "document": "corpus/L-001.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E004",
+      "source": "L-001",
+      "target": "A-01",
+      "relation": "NEAR",
+      "evidence": "L-001 is near Park 1; exact distance not documented.",
+      "document": "corpus/relationships.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E005",
+      "source": "L-001",
+      "target": "D-01",
+      "relation": "DOCUMENTED_BY",
+      "evidence": "Brochure corpus/L-001.txt documents L-001.",
+      "document": "corpus/L-001.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E006",
+      "source": "L-002",
+      "target": "B-01",
+      "relation": "MARKETED_BY",
+      "evidence": "Broker of record for L-002 is B-01.",
+      "document": "corpus/L-002.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E007",
+      "source": "B-01",
+      "target": "O-01",
+      "relation": "WORKS_AT",
+      "evidence": "Broker B-01 is affiliated with O-01.",
+      "document": "corpus/relationships.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E008",
+      "source": "L-002",
+      "target": "N-01",
+      "relation": "LOCATED_IN",
+      "evidence": "L-002 lies in N-01.",
+      "document": "corpus/L-002.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E009",
+      "source": "L-002",
+      "target": "A-02",
+      "relation": "NEAR",
+      "evidence": "L-002 is near Park 2; exact distance not documented.",
+      "document": "corpus/relationships.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E010",
+      "source": "L-002",
+      "target": "D-02",
+      "relation": "DOCUMENTED_BY",
+      "evidence": "Brochure corpus/L-002.txt documents L-002.",
+      "document": "corpus/L-002.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E011",
+      "source": "L-003",
+      "target": "B-02",
+      "relation": "MARKETED_BY",
+      "evidence": "Broker of record for L-003 is B-02.",
+      "document": "corpus/L-003.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E012",
+      "source": "B-02",
+      "target": "O-01",
+      "relation": "WORKS_AT",
+      "evidence": "Broker B-02 is affiliated with O-01.",
+      "document": "corpus/relationships.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E013",
+      "source": "L-003",
+      "target": "N-01",
+      "relation": "LOCATED_IN",
+      "evidence": "L-003 lies in N-01.",
+      "document": "corpus/L-003.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E014",
+      "source": "L-003",
+      "target": "A-03",
+      "relation": "NEAR",
+      "evidence": "L-003 is near Park 3; exact distance not documented.",
+      "document": "corpus/relationships.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E015",
+      "source": "L-003",
+      "target": "D-03",
+      "relation": "DOCUMENTED_BY",
+      "evidence": "Brochure corpus/L-003.txt documents L-003.",
+      "document": "corpus/L-003.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E016",
+      "source": "L-004",
+      "target": "B-02",
+      "relation": "MARKETED_BY",
+      "evidence": "Broker of record for L-004 is B-02.",
+      "document": "corpus/L-004.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E017",
+      "source": "B-02",
+      "target": "O-01",
+      "relation": "WORKS_AT",
+      "evidence": "Broker B-02 is affiliated with O-01.",
+      "document": "corpus/relationships.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E018",
+      "source": "L-004",
+      "target": "N-02",
+      "relation": "LOCATED_IN",
+      "evidence": "L-004 lies in N-02.",
+      "document": "corpus/L-004.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E019",
+      "source": "L-004",
+      "target": "A-04",
+      "relation": "NEAR",
+      "evidence": "L-004 is near Park 4; exact distance not documented.",
+      "document": "corpus/relationships.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E020",
+      "source": "L-004",
+      "target": "D-04",
+      "relation": "DOCUMENTED_BY",
+      "evidence": "Brochure corpus/L-004.txt documents L-004.",
+      "document": "corpus/L-004.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E021",
+      "source": "L-005",
+      "target": "B-03",
+      "relation": "MARKETED_BY",
+      "evidence": "Broker of record for L-005 is B-03.",
+      "document": "corpus/L-005.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E022",
+      "source": "B-03",
+      "target": "O-02",
+      "relation": "WORKS_AT",
+      "evidence": "Broker B-03 is affiliated with O-02.",
+      "document": "corpus/relationships.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E023",
+      "source": "L-005",
+      "target": "N-02",
+      "relation": "LOCATED_IN",
+      "evidence": "L-005 lies in N-02.",
+      "document": "corpus/L-005.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E024",
+      "source": "L-005",
+      "target": "A-05",
+      "relation": "NEAR",
+      "evidence": "L-005 is near Park 5; exact distance not documented.",
+      "document": "corpus/relationships.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E025",
+      "source": "L-005",
+      "target": "D-05",
+      "relation": "DOCUMENTED_BY",
+      "evidence": "Brochure corpus/L-005.txt documents L-005.",
+      "document": "corpus/L-005.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E026",
+      "source": "L-006",
+      "target": "B-03",
+      "relation": "MARKETED_BY",
+      "evidence": "Broker of record for L-006 is B-03.",
+      "document": "corpus/L-006.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E027",
+      "source": "B-03",
+      "target": "O-02",
+      "relation": "WORKS_AT",
+      "evidence": "Broker B-03 is affiliated with O-02.",
+      "document": "corpus/relationships.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E028",
+      "source": "L-006",
+      "target": "N-02",
+      "relation": "LOCATED_IN",
+      "evidence": "L-006 lies in N-02.",
+      "document": "corpus/L-006.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E029",
+      "source": "L-006",
+      "target": "A-06",
+      "relation": "NEAR",
+      "evidence": "L-006 is near Park 6; exact distance not documented.",
+      "document": "corpus/relationships.txt",
+      "tenant": "demo"
+    },
+    {
+      "id": "E030",
+      "source": "L-006",
+      "target": "D-06",
+      "relation": "DOCUMENTED_BY",
+      "evidence": "Brochure corpus/L-006.txt documents L-006.",
+      "document": "corpus/L-006.txt",
+      "tenant": "demo"
+    }
+  ]
+}
